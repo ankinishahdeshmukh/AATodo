@@ -24,7 +24,7 @@ namespace AATodoHost
             {
                 svcHost.Open();
 
-                Console.WriteLine("Service is running");
+                Console.WriteLine("Service is running at " + baseAddress);
                 Console.WriteLine("Press enter to quit...");
                 Console.ReadLine();
 
